@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    background-color:#F7EED3;
+}
+nav {
+    background-color: #FFF8E8;
+    box-shadow: 10px 5px 5px grey;
+    justify-content: space-between;
+}
+.flex-container {
+    display:flex;
+    
+}
+section {
+  background-color:#FFF8E8;
+}
+footer {
+    background-color: #AAB396;
+    margin-top: 20px;
+    padding-top: 5px;
+    justify-items: stretch;
+}
+.splash {
+    background-color:#F7EED3;
+}
+
+ .splash h1 {
+  font-family: "Lato", sans-serif;
+     font-size: 40px;
+     color: #AAB396;
+  }
+  .splash img {
+    border-style:ridge;
+    border-color:#AAB396;
+    border-width: 15px;
+    display:block;
+    margin:0;
+  }
+  .splasher {
+text-decoration:underline;
+font-style:oblique;
+  }
+  .splasher_2 {
+font-size: 15px;
+color: black;
+font-weight: bold;
+  }
+  hr {
+    border-style: dashed;
+    border-width: 5px;
+    border-color:#AAB396;
+  }
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .cooltext {
+    font-style:italic;
+    font-weight: bold;
+  }
+  .unorder ul {
+    list-style-type:square !important;
+      padding-left: 20px; 
+      margin: 0;
+  }
+  .unorder li::marker {
+color:#AAB396;
+  }
+  .grid-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 5px;
+  }
+  .grid-container dt {
+    grid-row: 1;
+    font-size: 15px;
+  }
+.grid-container dd {
+  grid-row: 2;
+  font-size: 13px;
+}
+.grid-container a {
+  color:#AAB396;
+  text-decoration:none; 
+}
+.grid-container a:hover {
+  color:green;
+}
+.three-col {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:10px;
+}
+.three-col h2 {
+  grid-column: span 3;
+  text-align:left;
+}
+.card {
+  background-color:#AAB396;
+  border-style:double;
+  padding: 10px;
+  border-width: 7px;
+  overflow: visible;
+}
+.card img {
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+
+}
+.card ul {
+  list-style-type: square;
+}
+.one-col {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin: 0 auto;
+}
+.one-col form {
+  width: 65%;
+  display:flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.one-col section {
+  margin:20px;
+  background-color:#FFF8E8;
+}
+.one-col nav {
+  width:100%;
+  text-align:center;
+}
+.one-col nav p {
+  margin:0;
+}
+.one-col hr {
+  border: none;
+  border-top: 2px dashed #AAB396; 
+  width: 100%; 
+ 
+}
+.one-col footer {
+  background-color: #F7EED3;
+}
+.one-col input {
+  margin: 5px;
+}
+
+.unorder li {
+  margin-bottom: 10px; 
+}
