@@ -112,6 +112,10 @@ color:#AAB396;
 }
 .card ul {
   list-style-type: square;
+  
+}
+.card li::marker {
+  color:#F7EED3;
 }
 .one-col {
   display:flex;
